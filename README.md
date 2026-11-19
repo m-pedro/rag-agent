@@ -1,6 +1,6 @@
 # rag-agent
 
-A Hybrid Retrieval-Augmented Generation (`RAG`) and Autonomous `ReAct` Tool-Calling Agent engine built from scratch in Python and NumPy. Implements recursive Markdown-aware chunking, **Okapi BM25+** lexical search, dense vector search with **Maximal Marginal Relevance (`MMR`)**, **Reciprocal Rank Fusion (`RRF`)**, cross-encoder reranking, citation verification, and a multi-step `Thought -> Action -> Observation` agent loop.
+A Hybrid Retrieval-Augmented Generation (`RAG`) and Autonomous `ReAct` Tool-Calling Agent engine built from scratch in Python and NumPy. Implements recursive Markdown-aware chunking, Okapi BM25+ lexical search, dense vector search with Maximal Marginal Relevance (`MMR`), Reciprocal Rank Fusion (`RRF`), cross-encoder reranking, citation verification, and a multi-step `Thought -> Action -> Observation` agent loop.
 
 ## 15-Day Incremental Engineering Roadmap (Month 5, Days 121–135)
 
