@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-agent"
+version = "0.1.0"
+description = "Hybrid Retrieval-Augmented Generation (BM25 + Dense MMR + Reciprocal Rank Fusion) and ReAct Tool-Calling Agent Engine from scratch in Python"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
